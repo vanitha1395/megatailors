@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MEGA TAILOR</title>
+    <link href="css/style.css" rel="Stylesheet" />
+    <style type="text/css">
+        @font-face
+        {
+            font-family: chella;
+            src: url(font/Futura-Normal.woff);
+        }
+    </style>
+    <link href="css/product.css" rel="Stylesheet" />
+</head>
+<body style="background: url(images/bg_product.jpg) center center fixed; -webkit-background-size: cover;
+    -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+    <form id="form1" runat="server">
+    <table class="main_tbl" style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td style="vertical-align: top;">
+                <table class="header_tbl" style="width: 100%; border-collapse: collapse; background-color: #fff;">
+                    <tr>
+                        <td style="width: 50%;">
+                            <img src="images/logo1.png" alt="Logo" style="margin-left: 15%;" />
+                        </td>
+                        <td style="width: 50%;">
+                            <ul>
+                                <li style="border-left: 1px solid gray;"><a href="index.htm">Home</a> </li>
+                                <li><a href="about.htm">About Us</a> </li>
+                                <li><a href="product.htm">Products</a> </li>
+                                <li><a href="service.htm">Service</a> </li>
+                                <li><a href="contact.htm">Contact</a> </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 70px; background-color: #514a48; color: #fff; padding-left: 130px;
+                font-family: chella; font-size: 22px;">
+                PRODUCTS
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 50px 0 50px 0; display: block;">
+                <table style="width: 80%; background-color: #fff; margin: 0 auto; border-radius: 5px;
+                    background: rgba(0, 0, 0, 0.7); padding: 40px 5px 40px 5px;">
+                    <!--  <tr>
+                        <td>
+                            <img src="images/product/PatialaSuit.jpg" style="width:280px;height:300px;margin:0 auto;display: block;"/>
+                        </td>
+                        <td>
+                            <img src="images/product/anarkali-suit.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td>
+                            <img src="images/product/Churidar-Suit.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/product/ghagra-choli.jpg" style="width:280px;height:300px;margin:0 auto;display: block;"/>
+                        </td>
+                        <td>
+                            <img src="images/product/SalwarKameez.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td>
+                            <img src="images/product/kurti.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/product/kaftan.jpg" style="width:280px;height:300px;margin:0 auto;display: block;"/>
+                        </td>
+                        <td>
+                            <img src="images/product/blouse.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td>
+                           
+                        </td>
+                    </tr>-->
+                    <tr>
+                        <td>
+                            <div class="container">
+                                <div class="tabs effect-1">
+                                    <!-- tab-title -->
+                                    <input type="radio" id="tab-1" name="tab" checked="checked">
+                                    <span href="#tab-item-1">Women</span>
+                                    <input type="radio" id="tab-2" name="tab">
+                                    <span href="#tab-item-2">Men</span>
+                                    <!-- tab-content -->
+                                    <div class="tab-content">
+                                        <section id="tab-item-1">
+					<table style="margin: 0 auto;">
+                        <tr>
+                        <td>
+                            <img src="images/product/PatialaSuit.jpg" style="width:280px;height:300px;margin:0 auto;display: block;"/>
+                        </td>
+                        <td>
+                            <img src="images/product/anarkali-suit.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td>
+                            <img src="images/product/Churidar-Suit.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/product/ghagra-choli.jpg" style="width:280px;height:300px;margin:0 auto;display: block;"/>
+                        </td>
+                        <td>
+                            <img src="images/product/SalwarKameez.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td>
+                            <img src="images/product/kurti.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/product/kaftan.jpg" style="width:280px;height:300px;margin:0 auto;display: block;"/>
+                        </td>
+                        <td>
+                            <img src="images/product/blouse.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td>
+                           
+                        </td>
+                    </tr>
+                    </table>
+				</section>
+                                        <section id="tab-item-2" style="color:#fff">
+					<table style="margin: 0 auto;">
+                        <tr>
+                        <td style="width:280px;">
+                           <img src="images/product/shirt.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td style="width:280px;">
+                            <img src="images/product/pant.jpg" style="width:280px;height:300px;margin:0 auto;display: block;" />
+                        </td>
+                        <td style="width:280px;">
+                            &nbsp;
+                        </td>
+                    </tr>
+             
+                   
+                    </table>
+                   
+				</section>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 300px; background: rgba(1, 1, 1, 0.5);">
+                <table style="width: 75%; margin: 0 auto;">
+                    <tr>
+                        <td style="width: 24%; vertical-align: top;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="color: #fff; font-size: 18px; font-family: chella; border-bottom: 1px dotted #fff;
+                                        line-height: 2em;">
+                                        QUICK LINKS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="line-height: 2.5em; color: #fff; font-family: chella; padding: 0 0 0 2px;
+                                            display: block;">
+                                            Home
+                                            <br />
+                                            About Us
+                                            <br />
+                                            Products
+                                            <br />
+                                            Service
+                                            <br />
+                                            Contact Us
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 1%;">
+                        </td>
+                        <td style="width: 24%; vertical-align: top;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="color: #fff; font-size: 18px; font-family: chella; border-bottom: 1px dotted #fff;
+                                        line-height: 2em;">
+                                        CONTACT US
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table style="width: 100%;">
+                                            <tr>
+                                                <td>
+                                                    <span style="line-height: 2em; color: #fff; font-family: chella;">Address</span>
+                                                    <p style="line-height: 2em; color: #fff; font-family: chella; padding: 0 0 0 5px;
+                                                        display: block;">
+                                                        No: 31, Sathyamoorthi Block,
+                                                        <br />
+                                                        V.M. Balakrishnan Street,<br />
+                                                        Sapthagiri Colony,<br />
+                                                        Jafferkhanpet, Chennai - 600083,
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p style="line-height: 1.6em; color: #fff; font-family: chella; padding: 0 0 0 5px;
+                                                        display: block;">
+                                                        Email : megaarul1@gmail.com
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p style="line-height: 1.6em; color: #fff; font-family: chella; padding: 0 0 0 5px;
+                                                        display: block;">
+                                                        Website : www.megatailors.com
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 1%;">
+                        </td>
+                        <td style="width: 24%; vertical-align: top;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="color: #fff; font-size: 18px; font-family: chella; border-bottom: 1px dotted #fff;
+                                        line-height: 2em;">
+                                        LINK US
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 0 0 0; display: block;">
+                                        <img src="images/facebook.png" alt="fb" />
+                                        <img src="images/twitt.png" alt="twitter" />
+                                        <img src="images/google.png" alt="google Plus" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: #fff; height: 50px; text-align: center; color: #666666;
+                font-family: chella">
+                Copyright © megatailors.com
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
